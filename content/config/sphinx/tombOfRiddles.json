@@ -1,0 +1,17 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpTombOfRiddles" : {
+				"name" : "Tomb of Riddles",
+				"creatures" : [[ "sphinx" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "map/sphinx/tombOfRiddles",
+						"mask" : [ "VVV", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

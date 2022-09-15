@@ -1,0 +1,19 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpSordidPost" : {
+				"name" : "Sordid Post",
+				"creatures" : [[ "sellsword" ]],
+				"sounds": {
+					"ambient": ["sellsword/sordidPost"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "map/sellsword/sordidPost.def",
+						"mask" : [ "VVB", "VAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"shadowLord" : {
+		"abilities" : {
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 5
+			},
+			"castsClone" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.clone",
+				"val" : 3,
+				"addInfo" : 1
+			},
+			"clonePower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 500
+			},
+			"noMorale" :
+			{
+				"type" : "NO_MORALE"
+			},
+			"noLuck" :
+			{
+				"type" : "NO_LUCK"
+			}			
+		},	
+		"advMapAmount" : { "max" : 5, "min" : 3 },
+		"aiValue" : 14000,
+		"attack" : 29,
+		"cost" : { "gold" : 6000, "mercury" : 4 },
+		"damage" : { "max" : 52, "min" : 37 },
+		"defense" : 34,
+		"faction" : "neutral",
+		"fightValue" : 12750,
+		"graphics" : {
+			"animation" : "battle/shadowLord/shadowLord",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/shadowLord/Face58x64",
+			"iconSmall" : "iconsSmall/shadowLord/Face32x32",
+			"map" : "map/shadowLord/Adv-ShadowLord",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 375,
+	        "doubleWide" : false,
+		"level" : 8, //like WoG Creatures
+		"name" : { "plural" : "Shadow Lords", "singular" : "Shadow Lord" },
+		"sound" : {
+			"attack" : "shadowLord/slatack",
+			"defend" : "shadowLord/sldefend",
+			"killed" : "shadowLord/slkill",
+			"move" : "shadowLord/slmove",
+			"wince" : "shadowLord/slwince"
+		},
+		"speed" : 7
+	}
+}

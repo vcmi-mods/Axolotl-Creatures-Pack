@@ -1,0 +1,62 @@
+{
+	"owlkinSage" : {
+		"abilities" : {
+			"flier" : 
+			{ 
+				"type" : "FLYING"
+			},
+			"mixer" :
+			{
+				"type" : "NONEVIL_ALIGNMENT_MIX",
+				"propagator" : "HERO"
+			},
+			
+			"lucky" :
+			{
+				"type" : "LUCK",
+				"val" : 1,
+				"propagator" : "HERO"
+			},
+			
+			"addRetaliation" :
+			{
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1
+			},
+			
+			"heals" : 
+			{ 
+				"type" : "HEALER" 
+			}
+		},	
+		"advMapAmount" : {"max" : 23, "min" : 16},
+		"aiValue" : 274,
+		"attack" : 6,
+		"cost" : { "gold" : 260 },
+		"damage" : {"max" : 6, "min" : 3},
+		"defense" : 10,
+		"faction" : "neutral",
+		"fightValue" : 248,
+		"graphics" : {
+			"animation" : "battle/owls/OwlHigh",
+			"animationTime" : { "attack" : 0.5, "flight" : 0.5, "idle" : 20, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/owls/FaceHighBig1",
+			"iconSmall" : "iconsSmall/owls/FaceHighsmall1",
+			"map" : "map/owls/Adv-Owlhigh",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 12,
+		"hitPoints" : 20,
+        "doubleWide" : false,
+		"level" : 3,
+		"name" : { "plural" : "Owlkin Sages", "singular" : "Owlkin Sage" },
+		"sound" : {
+			"attack" : "owls/owlattack",
+			"defend" : "owls/owldefend",
+			"killed" : "owls/owlkill",
+			"move" : "owls/owlmove",
+			"wince" : "owls/owlwince"
+		},
+		"speed" : 8
+	}
+}

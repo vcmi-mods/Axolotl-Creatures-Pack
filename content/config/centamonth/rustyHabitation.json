@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpRustyHabitation" : {
+				"name" : "Rusty Habitation",
+				"guards" : true,
+				"creatures" : [[ "centamonthHunter" ]],
+				"sounds": {
+					"ambient": ["centamonth/rustyHabitation"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "map/centamonth/rustyHabitation",
+						"mask" : [ "VVVV", "VVBB", "VBBB", "VBAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"dragonFish" : {
+		"abilities" : {
+			"dragonNature" : { "type" : "DRAGON_NATURE" },
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"freeShipBoarding" :
+			{
+				"type" : "FREE_SHIP_BOARDING",
+				"propagator" : "HERO"
+			},
+			"waterImmunity" :
+			{
+				"type" : "WATER_IMMUNITY",
+				"val" : 1
+			}	
+		},	
+		"advMapAmount" : { "max" : 10, "min" : 6 },
+		"aiValue" : 2070,
+		"attack" : 17,
+		"cost" : { "gold" : 1400 },
+		"damage" : { "max" : 25, "min" : 20 },
+		"defense" : 21,
+		"faction" : "neutral",
+		"fightValue" : 1740,
+		"graphics" : {
+			"animation" : "battle/dragonFish/KrakkenLow",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/dragonFish/FaceBiglow",
+			"iconSmall" : "iconsSmall/dragonFish/FaceSmalllow",
+			"map" : "map/dragonFish/KrakkenLowAdv",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"hitPoints" : 130,
+        "doubleWide" : false,
+		"level" : 6,
+		"name" : { "plural" : "Dragonfishes", "singular" : "Dragonfish" },
+		"sound" : {
+			"attack" : "dragonFish/DRAatak",
+			"defend" : "dragonFish/DRAdefend",
+			"killed" : "dragonFish/DRAkill",
+			"move" : "dragonFish/DRAmove",
+			"wince" : "dragonFish/DRAwnce"
+		},
+		"speed" : 7
+	}
+}

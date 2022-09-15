@@ -1,0 +1,55 @@
+{
+	"serpentine" : {
+		"abilities" : {
+
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"king2" :
+			{
+				"type" : "KING2"
+			},
+			"swampWalker" :
+			{
+				"type" : "NO_TERRAIN_PENALTY",
+				"subtype" : "terrain.swamp",
+				"propagator" : "HERO"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			}
+		},
+		"upgrades": ["serpentineAlpha"],	
+		"advMapAmount" : {"max" : 12, "min" : 6},
+		"aiValue" : 1374,
+		"attack" : 18,
+		"cost" : { "gold" : 1080 },
+		"damage" : {"max" : 23, "min" : 18},
+		"defense" : 16,
+		"faction" : "neutral",
+		"fightValue" : 1238,
+		"graphics" : {
+			"animation" : "battle/serpentine/snmanLow",
+			"animationTime" : { "attack" : 0.5, "flight" : 0.5, "idle" : 4, "walk" : 1.8 },
+			"iconLarge" : "iconsBig/serpentine/Down-FaceBig",
+			"iconSmall" : "iconsSmall/serpentine/Down-Facesmall",
+			"map" : "map/serpentine/snmanlow-map",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"hitPoints" : 80,
+        "doubleWide" : true,
+		"level" : 6,
+		"name" : { "plural" : "Serpentines", "singular" : "Serpentine" },
+		"sound" : {
+			"attack" : "serpentine/SNAatak",
+			"defend" : "serpentine/SNAdefend",
+			"killed" : "serpentine/SNAkill",
+			"move" : "serpentine/SNAmove",
+			"wince" : "serpentine/SNAwince"
+		},
+		"speed" : 6
+	}
+}

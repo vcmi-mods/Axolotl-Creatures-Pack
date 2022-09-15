@@ -1,0 +1,16 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpChalet" : {
+				"name" : "Chalet",
+				"creatures" : [[ "acpThug" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "map/thug/chalet",
+						"mask" : [ "VVV", "VBB", "VBB", "VAV" ]
+					}
+				}
+			}
+		}		
+	}
+}

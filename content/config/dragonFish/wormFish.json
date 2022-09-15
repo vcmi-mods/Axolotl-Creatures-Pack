@@ -1,0 +1,52 @@
+{
+	"wyrmFish" : {
+		"abilities" : {
+			"dragonNature" : { "type" : "DRAGON_NATURE" },
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"seaMovement" :
+			{
+				"type" : "SEA_MOVEMENT",
+				"val" : 600,
+				"propagator" : "HERO"
+			},
+			"waterImmunity" :
+			{
+				"type" : "WATER_IMMUNITY",
+				"val" : 0
+			}	
+		},
+		"upgrades": ["dragonFish"],		
+		"advMapAmount" : { "max" : 12, "min" : 6 },
+		"aiValue" : 1740,
+		"attack" : 15,
+		"cost" : { "gold" : 1100 },
+		"damage" : { "max" : 25, "min" : 20 },
+		"defense" : 19,
+		"faction" : "neutral",
+		"fightValue" : 1540,
+		"graphics" : {
+			"animation" : "battle/dragonFish/KrakkenHigh",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/dragonFish/FaceBig3",
+			"iconSmall" : "iconsSmall/dragonFish/FaceSmall3",
+			"map" : "map/dragonFish/KrakkenHighAdv",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"hitPoints" : 110,
+        "doubleWide" : false,
+		"level" : 6,
+		"name" : { "plural" : "Wyrmfishes", "singular" : "Wyrmfish" },
+		"sound" : {
+			"attack" : "dragonFish/DRAatak",
+			"defend" : "dragonFish/DRAdefend",
+			"killed" : "dragonFish/DRAkill",
+			"move" : "dragonFish/DRAmove",
+			"wince" : "dragonFish/DRAwnce"
+		},
+		"speed" : 5
+	}
+}

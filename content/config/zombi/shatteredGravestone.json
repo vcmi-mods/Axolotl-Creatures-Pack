@@ -1,0 +1,16 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpShatteredGravestone" : {
+				"name" : "Shattered Gravestone",
+				"creatures" : [[ "zombieLow" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "map/zombi/shatteredGravestone",
+						"mask" : [ "VBB", "VAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

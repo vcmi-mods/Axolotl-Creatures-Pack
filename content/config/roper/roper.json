@@ -1,0 +1,48 @@
+{
+	"roper" : {
+		"abilities" : {
+
+			"binds" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",
+				"val" : 90
+			},
+			"defensiveStance" :
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 50
+			}
+		},
+		"upgrades": ["acidicRoper"],		
+		"advMapAmount" : {"max" : 50, "min" : 20},
+		"aiValue" : 82,
+		"attack" : 6,
+		"cost" : { "gold" : 45 },
+		"damage" : {"max" : 2, "min" : 2},
+		"defense" : 4,
+		"faction" : "neutral",
+		"fightValue" : 94,
+		"graphics" : {
+			"animation" : "battle/roper/Tentaplant-A",
+			"animationTime" : { "attack" : 1.6, "flight" : 1.6, "idle" : 20, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/roper/TentaclePlantFace-Big",
+			"iconSmall" : "iconsSmall/roper/TentaclePlantFace-Small",
+			"map" : "map/roper/Adv-Tentaplant-A",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 42,
+		"hitPoints" : 5,
+        "doubleWide" : true,
+		"level" : 1,
+		"name" : { "plural" : "Ropers", "singular" : "Roper" },
+		"sound" : {
+			"attack" : "roper/ROPatak",
+			"defend" : "roper/ROPdefend",
+			"killed" : "roper/ROPkill",
+			"move" : "roper/ROPmove",
+			"wince" : "roper/ROPwince"
+		},
+		"speed" : 10
+	}
+}

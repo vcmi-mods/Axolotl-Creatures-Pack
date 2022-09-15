@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpForsakenPond" : {
+				"name" : "Forsaken Pond",
+				"creatures" : [[ "kappa" ]],
+				"sounds": {
+					"ambient": ["kappa/forsakenPond"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "map/kappa/forsakenPond",
+						"mask" : [ "VBBV", "VBAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

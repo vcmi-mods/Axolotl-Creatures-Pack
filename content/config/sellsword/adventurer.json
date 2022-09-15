@@ -1,0 +1,52 @@
+{
+	"adventurer" : {
+		"abilities" : {
+			"noMorale" : 
+			{ 
+				"type" : "NO_MORALE"
+			},
+			"generateGold" :
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gold",
+				"val" : 550,
+				"propagator" : "HERO"
+			},
+			"surrenderDiscount" :
+			{
+				"type" : "SURRENDER_DISCOUNT",
+				"val" : 60,
+				"propagator" : "HERO"
+			}
+		},	
+		"advMapAmount" : {"max" : 14, "min" : 8},
+		"aiValue" : 680,
+		"attack" : 7,
+		"cost" : { "gold" : 370 },
+		"damage" : {"max" : 10, "min" : 7},
+		"defense" : 12,
+		"faction" : "neutral",
+		"fightValue" : 645,
+		"graphics" : {
+			"animation" : "battle/sellsword/adventurer",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/sellsword/Crusbig1",
+			"iconSmall" : "iconsSmall/sellsword/crussmall1",
+			"map" : "map/sellsword/Adv-adventurer",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 4,
+		"hitPoints" : 28,
+        "doubleWide" : false,
+		"level" : 4,
+		"name" : { "plural" : "Adventurers", "singular" : "Adventurer" },
+		"sound" : {
+			"attack" : "sellsword/ADVatack",
+			"defend" : "sellsword/SELdefend",
+			"killed" : "sellsword/SELkill",
+			"move" : "sellsword/ADVmove",
+			"wince" : "sellsword/SELwince"
+		},
+		"speed" : 5
+	}
+}

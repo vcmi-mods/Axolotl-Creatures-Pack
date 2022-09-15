@@ -1,0 +1,33 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpSinfulWorkshop" : {
+				"name" : "Sinful Workshop",
+				"creatures" : [[ "scorpohand" ]],
+				"guards" : true,		
+				"sounds": {
+					"ambient": ["scorpohand/ScrHndDw"]
+				},				
+				"base": 
+				{
+					"mask" : [ "VVB", "VBB", "VAB" ]
+				},
+				"templates" : {				
+					"ScrHndDw0" : { "animation" : "map/scorpohand/ScrHndDw0", "allowedTerrains": [ "grass" ] },
+					"ScrHndDw1" : { "animation" : "map/scorpohand/ScrHndDw1", "allowedTerrains": [ "swamp" ] },
+					"ScrHndDw2" : { "animation" : "map/scorpohand/ScrHndDw2", "allowedTerrains": [ "dirt", "rough" ] },				
+					"ScrHndDw3" : { "animation" : "map/scorpohand/ScrHndDw3", "allowedTerrains": [ "sand" ] },
+					"ScrHndDw4" : { "animation" : "map/scorpohand/ScrHndDw4", "allowedTerrains": [ "subterra" ] },
+					"ScrHndDw5" : { "animation" : "map/scorpohand/ScrHndDw5", "allowedTerrains": [ "lava" ] },
+					"ScrHndDw6" : { "animation" : "map/scorpohand/ScrHndDw6", "allowedTerrains": [ "snow" ] }				
+				}
+			}	
+		}
+	}
+}
+	
+	
+	
+
+
+	

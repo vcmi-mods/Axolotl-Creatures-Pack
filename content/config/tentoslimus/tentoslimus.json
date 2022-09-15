@@ -1,0 +1,51 @@
+{
+	"tentoslimus" : {
+		"abilities" : {
+			"lifeDrain" : 
+			{ 
+				"type" : "LIFE_DRAIN",
+				"val" : 30
+			},
+
+			"chargeImmunity" :
+			{
+				"type" : "CHARGE_IMMUNITY"
+			},
+			
+			"enemyCantEscape" :
+			{
+				"type" : "BATTLE_NO_FLEEING",
+				"propagator" : "BATTLE_WIDE"
+			}
+		},	
+		"advMapAmount" : {"max" : 26, "min" : 17},
+		"aiValue" : 250,
+		"attack" : 7,
+		"cost" : { "gold" : 165 },
+		"damage" : {"max" : 5, "min" : 2},
+		"defense" : 4,
+		"faction" : "neutral",
+		"fightValue" : 235,
+		"graphics" : {
+			"animation" : "battle/tentoslimus/Tentoslimus2_altIdle",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.0 },
+			"iconLarge" : "iconsBig/tentoslimus/tentBig",
+			"iconSmall" : "iconsSmall/tentoslimus/tentSmall",
+			"map" : "map/tentoslimus/AdvTent2",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 12,
+		"hitPoints" : 18,
+	        "doubleWide" : true,
+		"level" : 2,
+		"name" : { "plural" : "Tentoslimuses", "singular" : "Tentoslimus" },
+		"sound" : {
+			"attack" : "tentoslimus/DEVatak",
+			"defend" : "tentoslimus/DEVdefend",
+			"killed" : "tentoslimus/DEVkill",
+			"move" : "tentoslimus/DEVmove",
+			"wince" : "tentoslimus/DEVwince"
+		},
+		"speed" : 8
+	}
+}

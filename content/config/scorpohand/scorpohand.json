@@ -1,0 +1,50 @@
+{
+	"scorpohand" : {
+		"abilities" : {
+			"castPoison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 30,
+				"addInfo" : [0,2]
+			},
+			"castWeakness" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
+				"val" : 70,
+				"addInfo" : [0,2]
+			}
+		},	
+		"advMapAmount" : {"max" : 20, "min" : 10},
+		"aiValue" : 721,
+		"attack" : 11,
+		"cost" : { "gold" : 330 },
+		"damage" : {"max" : 9, "min" : 7},
+		"defense" : 6,
+		"faction" : "neutral",
+		"fightValue" : 659,
+		"doubleWide" : true,
+		"upgrades" : [ "veninScorpohand" ],
+		"graphics" : {
+			"animation" : "battle/scorpohand/HandLow",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 15, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/scorpohand/bigScorpohand",
+			"iconSmall" : "iconsSmall/scorpohand/smallScorpohand",
+			"map" : "map/scorpohand/HandAdvLow",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 9,
+		"hitPoints" : 50,
+		"level" : 4,
+		"name" : { "plural" : " Scorpohands", "singular" : "Scorpohand" },
+		"sound" : {
+			"attack" : "scorpohand/scorpattack",
+			"defend" : "scorpohand/scorpdefend",
+			"killed" : "scorpohand/scorpkill",
+			"move" : "scorpohand/scorpmove",
+			"wince" : "scorpohand/scorpwince"
+		},
+		"speed" : 6
+	}
+}

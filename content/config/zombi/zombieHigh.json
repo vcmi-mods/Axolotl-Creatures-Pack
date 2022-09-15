@@ -1,0 +1,43 @@
+{
+	"zombieHigh" : {
+		"abilities" : {
+			"undead" : { "type" : "UNDEAD" },
+			"unlimitedRetaliation" : { "type" : "UNLIMITED_RETALIATIONS" },
+			"age" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.age",
+				"val" : 55
+			}
+		},
+		"advMapAmount" : {"max" : 22, "min" : 14},
+		"aiValue" : 360,
+		"attack" : 7,
+		"cost" : { "gold" : 315 },
+		"damage" : {"max" : 7, "min" : 3},
+		"defense" : 9,
+		"faction" : "neutral",
+		"fightValue" : 325,
+		"graphics" : {
+			"animation" : "battle/zombi/czombi",
+			"animationTime" : { "attack" : 1.0, "flight" : 1.0, "idle" : 6, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/zombi/High-Big2",
+			"iconSmall" : "iconsSmall/zombi/High-small",
+			"map" : "map/zombi/Adv-czombi",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 8,
+		"hitPoints" : 23,
+	        "doubleWide" : false,
+		"level" : 3,
+		"name" : { "plural" : "Unforgiven Deads", "singular" : "Unforgiven Dead" },
+		"sound" : {
+			"attack" : "zombi/ZOatack",
+			"defend" : "zombi/ZOdefend",
+			"killed" : "zombi/ZOkill",
+			"move" : "zombi/ZOmove",
+			"wince" : "zombi/ZOwince"
+		},
+		"speed" : 4
+	}
+}

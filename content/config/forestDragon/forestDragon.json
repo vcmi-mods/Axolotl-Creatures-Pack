@@ -1,0 +1,38 @@
+{
+	"forestDragon" : {
+		"abilities" : {
+			"strikeAndReturn" :  { "type" : "RETURN_AFTER_STRIKE"},
+			"canFly" : { "type" : "FLYING" }
+		},
+		"advMapAmount" : {"max" : 25, "min" : 12},
+		"aiValue" : 364,
+		"attack" : 7,
+		"cost" : { "gold" : 235 },
+		"damage" : {"max" : 6, "min" : 3},
+		"defense" : 7,
+		"faction" : "neutral",
+		"fightValue" : 357,
+		"graphics" : {
+			"animation" : "battle/forestDragon/forestDragon",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.30 },
+			"iconLarge" : "iconsBig/forestDragon/forestDragon",
+			"iconSmall" : "iconsSmall/forestDragon/forestDragon",
+			"map" : "map/forestDragon/forestDragon",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 7,
+		"hitPoints" : 25,
+        "doubleWide" : true,
+		"level" : 3,
+		"name" : { "plural" : "Forest Dragons", "singular" : "Forest Dragon" },
+		"sound" : {
+			"attack" : "forestDragon/FODRATTK",
+			"defend" : "forestDragon/FODRDFND",
+			"killed" : "forestDragon/FODRKILL",
+			"move" : "forestDragon/FODRMOVE",
+			"wince" : "forestDragon/FODRWNCE"
+		},
+		"speed" : 7,
+		"upgrades" : [ "swampDragon" ]
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"kappa" : {
+		"abilities" : {
+			"magicResistance" : { "type" : "SPELL_DAMAGE_REDUCTION", "subtype" : -1, "val" : 40 }
+		},
+		"advMapAmount" : {"max" : 16, "min" : 8},
+		"aiValue" : 807,
+		"attack" : 10,
+		"cost" : { "gold" : 370 },
+		"damage" : {"max" : 15, "min" : 11},
+		"defense" : 13,
+		"faction" : "neutral",
+		"fightValue" : 746,
+		"graphics" : {
+			"animation" : "battle/kappa/kappa",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.30 },
+			"iconLarge" : "iconsBig/kappa/kappa",
+			"iconSmall" : "iconsSmall/kappa/kappa",
+			"map" : "map/kappa/kappa",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"hitPoints" : 45,
+        "doubleWide" : true,
+		"level" : 5,
+		"name" : { "plural" : "Kappas", "singular" : "Kappa" },
+		"sound" : {
+			"attack" : "kappa/attack",
+			"defend" : "kappa/defend",
+			"killed" : "kappa/kill",
+			"move" : "kappa/move",
+			"wince" : "kappa/wince"
+		},
+		"speed" : 4,
+		"upgrades" : [ "kappaShoya" ]
+	}
+}

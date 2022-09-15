@@ -1,0 +1,17 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpNiveousLair" : {
+				"name" : "Niveous Lair",
+				"creatures" : [[ "urox" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "map/urox/niveousLair",
+						"mask" : [ "VVV", "VBB", "BAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

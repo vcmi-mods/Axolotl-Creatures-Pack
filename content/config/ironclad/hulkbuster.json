@@ -1,0 +1,157 @@
+{
+	"hulkBuster" : {
+		"abilities" : {
+			"immuneToFire" : 
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+			},
+			"castsAirShield" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.airShield",
+				"val" : 3,
+				"addInfo" : 1
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"directDamageImmunity" :
+			{
+				"type" : "DIRECT_DAMAGE_IMMUNITY"
+			},
+			"hateGiants" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.giant",
+				"val" : 50
+			},
+			"hateTitans" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.titan",
+				"val" : 50
+			},
+			"hateDevils" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.devil",
+				"val" : 50
+			},
+			"hateArchDevils" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.archDevil",
+				"val" : 50
+			},
+			"hateAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.angel",
+				"val" : 50
+			},
+			"hateRedDragons" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.redDragon",
+				"val" : 50
+			},	
+			"hateBlackDragons" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.blackDragon",
+				"val" : 50
+			},	
+			"hatefirebird" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.firebird",
+				"val" : 50
+			},	
+			"hatephoenix" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.phoenix",
+				"val" : 50
+			},
+			"hatehydra" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.hydra",
+				"val" : 50
+			},	
+			"hatechaoshydra" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.chaosHydra",
+				"val" : 50
+			},
+			"hatebonedragon" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.boneDragon",
+				"val" : 50
+			},	
+			"hateghostdragon" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.ghostDragon",
+				"val" : 50
+			},
+			"hategreendragon" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.greenDragon",
+				"val" : 50
+			},	
+			"hategolddragon" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.goldDragon",
+				"val" : 50
+			},
+			"hatebehemoth" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.behemoth",
+				"val" : 50
+			},	
+			"hateancientbehemoth" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.ancientBehemoth",
+				"val" : 50
+			},
+		},
+		"advMapAmount" : { "max" : 12, "min" : 6 },
+		"aiValue" : 4560,
+		"attack" : 32,
+		"cost" : { "gold" : 5400, "mercury" : 4 },
+		"damage" : { "max" : 52, "min" : 37 },
+		"defense" : 35,
+		"faction" : "neutral",
+		"fightValue" : 4560,
+		"graphics" : {
+			"animation" : "battle/ironclad/hulkbuster",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.30 },
+			"iconLarge" : "iconsBig/ironclad/hulkbuster-Big02",
+			"iconSmall" : "iconsSmall/ironclad/hulkbuster-Small02",
+			"map" : "map/ironclad/hulkbuster",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"hitPoints" : 240,
+        "doubleWide" : true,
+		"level" : 7,
+		"name" : { "plural" : "Hulkbusters", "singular" : "Hulkbuster" },
+		"sound" : {
+			"attack" : "ironclad/atak-high",
+			"defend" : "ironclad/defend-high",
+			"killed" : "ironclad/kill-high",
+			"move" : "ironclad/move-high",
+			"wince" : "ironclad/wince-high"
+		},
+		"speed" : 5
+	}
+}

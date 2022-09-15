@@ -1,0 +1,57 @@
+{
+	"stoneLord" : {
+		"abilities" : {
+			"nonLiving" : { "type" : "NON_LIVING" },
+			"noMorale" :
+			{
+				"type" : "NO_MORALE"
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"creatureSpellPower" : 
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 500
+			},
+			"spellCaster" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.earthquake",
+				"val" : 3,
+				"addInfo" : 100
+			}
+		},	
+		"advMapAmount" : { "max" : 3, "min" : 1 },
+		"aiValue" : 32470,
+		"attack" : 45,
+		"cost" : { "gold" : 15000, "crystal" : 10 },
+		"damage" : { "max" : 65, "min" : 55 },
+		"defense" : 47,
+		"faction" : "neutral",
+		"fightValue" : 30645,
+		"graphics" : {
+			"animation" : "battle/stoneLord/Ismahigh",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 2.3 },
+			"iconLarge" : "iconsBig/stoneLord/FaceHigh-Big2",
+			"iconSmall" : "iconsSmall/stoneLord/FaceHigh-small2",
+			"map" : "map/stoneLord/Adv-Ismahigh",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 750,
+        "doubleWide" : true,
+		"level" : 10, //like Azure Dragons!!!
+		"name" : { "plural" : "Stone Lords", "singular" : "Stone Lord" },
+		"sound" : {
+			"attack" : "stoneLord/ismatack",
+			"defend" : "stoneLord/ismdefend",
+			"killed" : "stoneLord/ismkill",
+			"move" : "stoneLord/ismmove",
+			"wince" : "stoneLord/ismwnce"
+		},
+		"speed" : 5
+	}
+}

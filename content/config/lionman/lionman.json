@@ -1,0 +1,65 @@
+{
+	"lionman" : {
+		"abilities" : {
+			"selfluck" : 
+			{ 
+				"type" : "SELF_LUCK"
+			},
+			"castsQuicksand" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.quicksand",
+				"val" : 3 //expert school
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 10 //duration
+			},
+			"spellCost" :
+			{
+				"type" : "CHANGES_SPELL_COST_FOR_ENEMY",
+				"val" : 5
+			},
+			"enemyDefenceReduction" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 10
+			}	
+		},	
+		"advMapAmount" : {"max" : 14, "min" : 8},
+		"aiValue" : 875,
+		"attack" : 13,
+		"cost" : { "gold" : 720 },
+		"damage" : {"max" : 15, "min" : 11},
+		"defense" : 15,
+		"faction" : "neutral",
+		"fightValue" : 845,
+		"graphics" : {
+			"animation" : "battle/lionman/Lionman1Hex",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/lionman/LIOFaceBig",
+			"iconSmall" : "iconsSmall/lionman/LIOFacesmall",
+			"map" : "map/lionman/Adv-LionmanBoss",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"hitPoints" : 50,
+        "doubleWide" : false,
+		"level" : 5,
+		"name" : { "plural" : "Lionmen", "singular" : "Lionman" },
+		"sound" : {
+			"attack" : "lionman/LIOatak",
+			"defend" : "lionman/LIOdefend",
+			"killed" : "lionman/LIOkill",
+			"move" : "lionman/LIOmove",
+			"wince" : "lionman/LIOwince"
+		},
+		"speed" : 5
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"ironclad" : {
+		"abilities" : {
+			"immuneToFire" : 
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+			},
+			"castsAirShield" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.airShield",
+				"val" : 2,
+				"addInfo" : 1
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"directDamageImmunity" :
+			{
+				"type" : "DIRECT_DAMAGE_IMMUNITY"
+			}
+		},
+		"advMapAmount" : { "max" : 12, "min" : 6 },
+		"aiValue" : 3940,
+		"attack" : 26,
+		"cost" : { "gold" : 4200, "mercury" : 3 },
+		"damage" : { "max" : 50, "min" : 37 },
+		"defense" : 30,
+		"faction" : "neutral",
+		"fightValue" : 3940,
+		"graphics" : {
+			"animation" : "battle/ironclad/ironclad",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.30 },
+			"iconLarge" : "iconsBig/ironclad/ironclad-Big02",
+			"iconSmall" : "iconsSmall/ironclad/ironclad-Small02",
+			"map" : "map/ironclad/ironclad",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"hitPoints" : 165,
+        "doubleWide" : true,
+		"level" : 7,
+		"name" : { "plural" : "Ironclads", "singular" : "Ironclad" },
+		"sound" : {
+			"attack" : "ironclad/atak-low",
+			"defend" : "ironclad/defend-low",
+			"killed" : "ironclad/kill-low",
+			"move" : "ironclad/move-low",
+			"wince" : "ironclad/wince-low"
+		},
+		"speed" : 4,
+		"upgrades" : [ "hulkBuster" ]
+	}
+}

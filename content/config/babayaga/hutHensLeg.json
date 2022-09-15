@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpHutHensLeg" : {
+				"name" : "Hut on Hen's Leg",
+				"guards" : true,
+				"creatures" : [[ "acpBabaYaga" ]],
+				"sounds": {
+					"ambient": ["babayaga/hutHensLeg"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "map/babayaga/hutHensLeg",
+						"mask" : [ "VBV", "VBB", "VVA" ]
+					}
+				}
+			}
+		}		
+	}
+}

@@ -1,0 +1,91 @@
+{
+	"acpBabaYaga":
+	{
+		"name" :
+		{
+			"plural" : "Baba Yagas",
+			"singular" : "Baba Yaga"
+		},
+		"faction" : "neutral",		
+		"advMapAmount" :
+		{
+			 "min" : 10,
+			 "max" : 20
+		},
+		"level" : 4,
+		"doubleWide" : true,
+		"attack" : 13,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 6,
+			 "max" : 10
+		},
+		"growth" : 4,
+		"hitPoints" : 30,
+		"speed" : 7,
+		"fightValue" : 670,
+		"aiValue" : 720,
+		"cost" :
+		{
+			"gold" : 435
+		},
+		"graphics" :
+		{
+			"animation" : "battle/babayaga/babaYaga",
+			"iconLarge" : "iconsBig/babayaga/by58x64",
+			"iconSmall" : "iconsSmall/babayaga/by32x32",
+			"map" : "map/babayaga/babaYagaMap",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack" : "babayaga/BYATTK",
+			"defend" : "babayaga/BYDFND",
+			"killed" : "babayaga/BYKILL",
+			"move" : "babayaga/BYMOVE",
+			"wince" : "babayaga/BYWNCE"
+        	},
+		"abilities" :
+		{
+			"moveSwamp" :
+			{
+				"type" : "NO_TERRAIN_PENALTY",
+				"subtype" : "terrain.swamp"
+			},
+			"infernoImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.inferno",
+				"addInfo" : 1
+			},
+			"castDepletion" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.acpDepletion",
+				"val" : 3
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"spellsLength" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			},
+			"noCastByDefault" :
+			{
+				"type" : "NO_SPELLCAST_BY_DEFAULT"
+			}
+		}
+	}
+}

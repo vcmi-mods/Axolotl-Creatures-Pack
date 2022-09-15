@@ -1,0 +1,58 @@
+{
+	"mountainGiant" : {
+		"abilities" : {
+		
+			"sightSeer" :
+			{
+				"type" : "SIGHT_RADIOUS",
+				"val" : 6,
+				"propagator" : "HERO"
+			},
+			"mindImmunity" :
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"enemyDefenceReduction" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 35
+			},
+			"stackSpeed" :
+			{
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER",
+				"propagator" : "HERO"
+			}
+		},	
+		"advMapAmount" : {"max" : 15, "min" : 8},
+		"aiValue" : 940,
+		"attack" : 14,
+		"cost" : { "gold" : 520 },
+		"damage" : {"max" : 15, "min" : 12},
+		"defense" : 18,
+		"faction" : "neutral",
+		"fightValue" : 940,
+		"graphics" : {
+			"animation" : "battle/giants/bgbHigh2run",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/giants/HGFaceBigHigh",
+			"iconSmall" : "iconsSmall/giants/HGFacesmallHigh",
+			"map" : "map/giants/Adv-bgbHigh",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"hitPoints" : 50,
+        "doubleWide" : false,
+		"level" : 5,
+		"name" : { "plural" : "Mountain Giants", "singular" : "Mountain Giant" },
+		"sound" : {
+			"attack" : "giants/Gatak",
+			"defend" : "giants/Gdefend",
+			"killed" : "giants/Gkill",
+			"move" : "giants/GmoveHigh",
+			"wince" : "giants/Gwince"
+		},
+		"speed" : 6
+	}
+}

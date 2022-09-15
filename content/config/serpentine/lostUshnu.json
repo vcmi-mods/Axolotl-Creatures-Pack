@@ -1,0 +1,17 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpLostUshnu" : {
+				"name" : "Lost Ushnu",
+				"creatures" : [[ "serpentine" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "map/serpentine/lostUshnu",
+						"mask" : [ "VVVV", "VBBB", "VBAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

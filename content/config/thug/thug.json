@@ -1,0 +1,59 @@
+{
+	"acpThug" : {
+		"abilities" : {
+			"visionsHeroes" :
+			{
+				"type" : "VISIONS",
+				"subtype" : 1,
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"				
+			},
+			"visionsTowns" :
+			{
+				"type" : "VISIONS",
+				"subtype" : 2,
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"				
+			},
+			"blockMagic" :
+			{
+				"type" : "BLOCK_MAGIC_ABOVE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX",
+				"effectRange": "ONLY_ENEMY_ARMY",
+				"propagator": "BATTLE_WIDE"
+			}
+		},	
+		"advMapAmount" : {"max" : 20, "min" : 12},
+		"aiValue" : 268,
+		"attack" : 10,
+		"cost" : { "gold" : 210 },
+		"damage" : {"max" : 6, "min" : 2},
+		"defense" : 5,
+		"faction" : "neutral",
+		"fightValue" : 269,
+		"graphics" : {
+			"animation" : "battle/thug/RogueH",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/thug/thug58x64",
+			"iconSmall" : "iconsSmall/thug/thug32x32",
+			"map" : "map/thug/AvThug",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 15,
+		"hitPoints" : 20,
+        "doubleWide" : false,
+		"level" : 3,
+		"name" : { "plural" : "Thugs", "singular" : "Thug" },
+		"sound" : {
+			"attack" : "thug/thugattack",
+			"defend" : "thug/thugdefend",
+			"killed" : "thug/thugkill",
+			"move" : "thug/thugmove",
+			"wince" : "thug/thugwince"
+		},
+		"speed" : 7
+	}
+}

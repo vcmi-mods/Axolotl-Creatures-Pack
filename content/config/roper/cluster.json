@@ -1,0 +1,19 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpCluster" : {
+				"name" : "Cluster",
+				"creatures" : [[ "roper" ]],
+				"sounds": {
+					"ambient": ["roper/cluster"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "map/roper/cluster",
+						"mask" : [ "VBV", "VAV" ]
+					}
+				}
+			}
+		}		
+	}
+}

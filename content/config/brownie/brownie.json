@@ -1,0 +1,77 @@
+{
+	"acpBrownie":
+	{
+		"name" :
+		{
+			"plural" : "Brownies",
+			"singular" : "Brownie"
+		},
+		"advMapAmount" :
+		{
+
+			"max" : 18,
+			"min" : 10
+		},
+		"faction" : "neutral",
+		"aiValue" : 365,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			"max" : 7,
+			"min" : 3
+		},
+		"defense" : 9,
+		"fightValue" : 330,
+		"graphics" :
+		{
+			"animation" : "battle/brownie/Browniev4.def",
+			"map" : "map/brownie/BrownieAdv.def",
+			"iconSmall" : "iconssmall/brownie/stumpRider32x32",
+			"iconLarge" : "iconsbig/brownie/stumpRider58x64",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"idle" : 10,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+	    "doubleWide" : true,
+		"growth" : 7,
+		"hitPoints" : 35,
+		"level" : 3,
+
+
+		"sound" :
+		{
+			"attack" : "brownie/SRATTACK",
+			"defend" : "brownie/SRDEFEND",
+			"killed" : "brownie/SRDIE",
+			"move" : "brownie/SRMOVE",
+			"wince" : "brownie/SRWINCE"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"unlucky" :
+			{
+				"type" : "LUCK",
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"val" : -1
+			},		
+			"degradation" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.degradation",
+				"val" : 50
+			}			
+		}
+	}
+}
+
+

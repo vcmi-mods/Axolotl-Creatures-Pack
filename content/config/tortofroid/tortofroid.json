@@ -1,0 +1,37 @@
+{
+	"tortofroid" : {
+		"abilities" : {
+			"reduceDef" : { "type" : "ENEMY_DEFENCE_REDUCTION", "val" : 20 }
+		},
+		"advMapAmount" : {"max" : 30, "min" : 25},
+		"aiValue" : 191,
+		"attack" : 5,
+		"cost" : { "gold" : 110 },
+		"damage" : {"max" : 4, "min" : 2},
+		"defense" : 6,
+		"faction" : "neutral",
+		"fightValue" : 196,
+		"graphics" : {
+			"animation" : "battle/tortofroid/tortofroid",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.8 },
+			"iconLarge" : "iconsBig/tortofroid/tortofroid",
+			"iconSmall" : "iconsSmall/tortofroid/tortofroid",
+			"map" : "map/tortofroid/tortofroid",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 8,
+		"hitPoints" : 16,
+        "doubleWide" : false,
+		"level" : 2,
+		"name" : { "plural" : "Tortofroids", "singular" : "Tortofroid" },
+		"sound" : {
+			"attack" : "tortofroid/attack",
+			"defend" : "tortofroid/defend",
+			"killed" : "tortofroid/kill",
+			"move" : "tortofroid/move",
+			"wince" : "tortofroid/wince"
+		},
+		"speed" : 5,
+		"upgrades" : [ "vileTortofroid" ]
+	}
+}

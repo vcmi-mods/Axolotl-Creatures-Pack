@@ -1,0 +1,44 @@
+{
+	"zombieLow" : {
+		"abilities" : {
+			"undead" : { "type" : "UNDEAD" },
+			"unlimitedRetaliation" : { "type" : "UNLIMITED_RETALIATIONS" },
+			"age" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.age",
+				"val" : 35
+			}
+		},
+		"upgrades" : [ "zombieHigh" ],
+		"advMapAmount" : {"max" : 25, "min" : 16},
+		"aiValue" : 325,
+		"attack" : 7,
+		"cost" : { "gold" : 275 },
+		"damage" : {"max" : 7, "min" : 3},
+		"defense" : 7,
+		"faction" : "neutral",
+		"fightValue" : 275,
+		"graphics" : {
+			"animation" : "battle/zombi/czomlo",
+			"animationTime" : { "attack" : 1.0, "flight" : 1.0, "idle" : 6, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/zombi/Low-Big1",
+			"iconSmall" : "iconsSmall/zombi/Low-small1",
+			"map" : "map/zombi/Adv-czomlo",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 8,
+		"hitPoints" : 23,
+	    "doubleWide" : false,
+		"level" : 3,
+		"name" : { "plural" : "Vengeful Deads", "singular" : "Vengeful Dead" },
+		"sound" : {
+			"attack" : "zombi/ZOatack",
+			"defend" : "zombi/ZOdefend",
+			"killed" : "zombi/ZOkill",
+			"move" : "zombi/ZOmove",
+			"wince" : "zombi/ZOwince"
+		},
+		"speed" : 3
+	}
+}

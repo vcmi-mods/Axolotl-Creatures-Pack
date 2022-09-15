@@ -1,0 +1,17 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpDarkPortal" : {
+				"name" : "Dark Portal",
+				"creatures" : [[ "shadowLord" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "map/shadowLord/darkPortal",
+						"mask" : [ "VVV", "BAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

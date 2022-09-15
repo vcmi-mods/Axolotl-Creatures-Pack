@@ -1,0 +1,46 @@
+{
+	"cockatriceHigh" : {
+		"abilities" : {
+			"deathStare" : 
+			{
+				"type" : "DEATH_STARE",
+				"subtype" : 0,
+				"val" : 10
+			},
+			"petrify" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 30
+			}
+		},	
+		"advMapAmount" : {"max" : 16, "min" : 10},
+		"aiValue" : 716,
+		"attack" : 10,
+		"cost" : { "gold" : 420 },
+		"damage" : {"max" : 9, "min" : 6},
+		"defense" : 12,
+		"faction" : "neutral",
+		"fightValue" : 661,
+		"graphics" : {
+			"animation" : "battle/cockatrice/CockatriceHigh",
+			"animationTime" : { "attack" : 20, "flight" : 20, "idle" : 5, "walk" : 1.6 },
+			"iconLarge" : "iconsBig/cockatrice/Big",
+			"iconSmall" : "iconsSmall/cockatrice/small2",
+			"map" : "map/cockatrice/AdvCockatrice",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 4,
+		"hitPoints" : 45,
+		"level" : 4,
+		"name" : { "plural" : "Ravenous Coctatrices", "singular" : "Ravenous Coctatrice" },
+		"sound" : {
+			"attack" : "cockatrice/cockatack",
+			"defend" : "cockatrice/cockdefend",
+			"killed" : "cockatrice/cockkill",
+			"move" : "cockatrice/cockmove",
+			"wince" : "cockatrice/cockwince"
+		},
+		"speed" : 7
+	}
+}

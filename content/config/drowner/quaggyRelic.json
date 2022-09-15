@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpQuaggyRelic" : {
+				"name" : "Quaggy Relic",
+				"guards" : true,
+				"creatures" : [[ "acpDrowner" ]],
+				"sounds": {
+					"ambient": ["drowner/quaggyRelic"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "map/drowner/quaggyRelic",
+						"mask" : [ "VVV", "VBV", "VBV", "VAV" ]
+					}
+				}
+			}
+		}		
+	}
+}

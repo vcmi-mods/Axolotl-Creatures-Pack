@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpButteExcavation" : {
+				"name" : "Butte Excavation",
+				"guards" : true,
+				"creatures" : [[ "hillGiant" ]],
+				"sounds": {
+					"ambient": ["giants/butteExcavation"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "map/giants/butteExcavation",
+						"mask" : [ "VVBV", "VBBB", "VBAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

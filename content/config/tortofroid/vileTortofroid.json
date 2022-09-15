@@ -1,0 +1,37 @@
+{
+	"vileTortofroid" : {
+		"abilities" : {
+			"reduceDef" : { "type" : "ENEMY_DEFENCE_REDUCTION", "val" : 25 },
+			"disease" : { "type" : "SPELL_AFTER_ATTACK", "subtype" : 73, "val" : 25 }
+		},
+		"advMapAmount" : {"max" : 25, "min" : 16},
+		"aiValue" : 223,
+		"attack" : 5,
+		"cost" : { "gold" : 145 },
+		"damage" : {"max" : 5, "min" : 2},
+		"defense" : 7,
+		"faction" : "neutral",
+		"fightValue" : 229,
+		"graphics" : {
+			"animation" : "battle/tortofroid/vileTortofroid",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.80 },
+			"iconLarge" : "iconsBig/tortofroid/vileTortofroid",
+			"iconSmall" : "iconsSmall/tortofroid/vileTortofroid",
+			"map" : "map/tortofroid/vileTortofroid",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 8,
+		"hitPoints" : 16,
+        "doubleWide" : false,
+		"level" : 2,
+		"name" : { "plural" : "Vile Tortofroids", "singular" : "Vile Tortofroid" },
+		"sound" : {
+			"attack" : "tortofroid/attack",
+			"defend" : "tortofroid/defend",
+			"killed" : "tortofroid/kill",
+			"move" : "tortofroid/move",
+			"wince" : "tortofroid/wince"
+		},
+		"speed" : 7,
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpTurquoisePassage" : {
+				"name" : "Turquoise Passage",
+				"guards" : true,
+				"creatures" : [[ "acpBrownie" ]],
+				"sounds": {
+					"ambient": ["brownie/turquoisePassage"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "map/brownie/turquoisePassage",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			}
+		}		
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"acpDrowner":
+	{
+		"name" :
+		{
+			"plural" : "Moss Thralls",
+			"singular" : "Moss Thrall"
+		},
+		"advMapAmount" :
+		{
+			"max" : 18,
+			"min" : 10
+		},
+		"faction" : "neutral",
+		"aiValue" : 365,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			"max" : 7,
+			"min" : 3
+		},
+		"defense" : 9,
+		"fightValue" : 330,
+		"graphics" :
+		{
+			"animation" : "battle/drowner/DrownerV2",
+			"map" : "map/drowner/DrownerAdv",
+			"iconSmall" : "iconssmall/drowner/Drownersmol",
+			"iconLarge" : "iconsbig/drowner/Drownerbig",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"idle" : 10,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+		"growth" : 7,
+		"hitPoints" : 35,
+		"level" : 3,
+
+
+		"sound" :
+		{
+			"attack" : "drowner/DOATTACK",
+			"defend" : "drowner/DODEFEND",
+			"killed" : "drowner/DODIE",
+			"move" : "drowner/DOMOVE",
+			"wince" : "drowner/DOWINCE"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},					
+			"fungus" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.fungus",
+				"val" : 100
+			},
+			"paraFungus" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.paraFungus",
+				"val" : 20
+			},			
+			"spellDuration" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			},
+			"parafungusImmunity" : 
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.paraFungus",
+				"addInfo" : 1
+			}		
+		}
+	}
+}
+
+

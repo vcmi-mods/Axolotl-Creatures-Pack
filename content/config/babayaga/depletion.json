@@ -1,0 +1,86 @@
+{
+	"acpDepletion" : {
+		"type": "ability",
+		"name": "Depletion",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"targetType": "CREATURE",
+		"level": 3,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"affect":["spells/depletion/depletion"]
+		},
+		"flags" : {
+			"negative": true,
+//			"special": true
+		},
+		"targetCondition" : {
+			"allOf" : {
+				"core:bonus.CASTS" : "normal"
+			}
+		},
+		"sounds": {
+			"cast": "BIND"
+		},
+		"graphics":
+		{
+			"iconBook": "spells/depletion/depletion_iconBook",
+			"iconScroll": "spells/depletion/depletion_iconScroll",
+			"iconScenarioBonus": "spells/depletion/depletion_iconScenarioBonus",
+			"iconEffect": "spells/depletion/depletion_iconEffect"
+		},
+		"levels" : {
+			"base":{
+				"range": "0",
+				"power": 10,
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects" : {
+					"depletionEffects" :
+					{
+						"type": "core:timed",
+						"cumulative": true,
+						"bonus":
+						{
+							"depletionEffect" : {
+								"type" : "CASTS",
+								"effectRange" : "ONLY_ENEMY_ARMY",
+								"val" : -1
+							}
+						}
+					}
+				},
+				"description": "Reduces amount of available creatures' spells."
+			},
+			"none":
+			{	 
+				"cost": 0
+			},
+			"basic":
+			{	 
+				"cost": 0
+			},
+			"advanced":
+			{	 
+				"cost": 0
+			},
+			"expert":
+			{
+				"cost": 0
+//				"range" : "X"
+			}
+		}
+	}
+}

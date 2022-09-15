@@ -1,0 +1,17 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpCenotaph" : {
+				"name" : "Cenotaph",
+				"creatures" : [[ "stoneCollossus" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "map/stoneLord/cenotaph",
+						"mask" : [ "VVVV", "VVBV", "VABB" ]
+					}
+				}
+			}
+		}		
+	}
+}

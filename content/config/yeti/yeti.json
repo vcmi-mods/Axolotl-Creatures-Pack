@@ -1,0 +1,81 @@
+{
+	"yeti" : {
+		"abilities" : {
+			"morale" : { "type" : "SELF_MORALE" },
+			"fear" :
+			{
+				"type" : "FEAR"
+			},
+			"infernoVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.inferno",
+				"val" : 35
+			},
+			"fireballVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireball",
+				"val" : 35
+			},
+			"fireWallVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireWall",
+				"val" : 35
+			},
+			"immuneToWater" :
+			{
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 2 //immune to damage spells only
+			},
+			"frostRingspellcaster" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.stoneGaze",
+				"val" : 2,
+				"addInfo" : 60
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"descreaseLuck" :
+			{
+				"type" : "LUCK",
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"val" : -1
+			}
+		},
+		"advMapAmount" : { "max" : 10, "min" : 6 },
+		"aiValue" : 2300,
+		"attack" : 16,
+		"cost" : { "gold" : 950 },
+		"damage" : { "max" : 23, "min" : 17 },
+		"defense" : 20,
+		"faction" : "neutral",
+		"fightValue" : 1970,
+		"graphics" : {
+			"animation" : "battle/yeti/yeti",
+			"animationTime" : { "attack" : 1.0, "flight" : 1.0, "idle" : 4, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/yeti/yetilarge",
+			"iconSmall" : "iconsSmall/yeti/yetismall",
+			"map" : "map/yeti/mapyeti",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"hitPoints" : 85,
+        "doubleWide" : false,
+		"level" : 6,
+		"name" : { "plural" : "Yetis", "singular" : "Yeti" },
+		"sound" : {
+			"attack" : "yeti/yetiattk",
+			"defend" : "yeti/yetidfnd",
+			"killed" : "yeti/yetikill",
+			"move" : "yeti/yetimove",
+			"wince" : "yeti/yetiwnce"
+		},
+		"speed" : 5,
+	}
+}

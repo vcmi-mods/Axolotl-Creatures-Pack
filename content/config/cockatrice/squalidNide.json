@@ -1,0 +1,19 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpSqualidNide" : {
+				"name" : "Squalid Nide",
+				"creatures" : [[ "cockatriceHigh" ]],
+				"sounds": {
+					"ambient": ["cockatrice/squalidNide"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "map/cockatrice/squalidNide",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

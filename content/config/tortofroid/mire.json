@@ -1,0 +1,17 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpMire" : {
+				"name" : "Mire",
+				"creatures" : [[ "tortofroid" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "map/tortofroid/mire",
+						"mask" : [ "VVVV", "VBBB", "VBAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

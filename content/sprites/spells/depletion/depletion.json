@@ -1,0 +1,104 @@
+{
+    "basepath" : "spells/depletion/frames/",
+ 
+    // List of sequiences / groups in animation
+    // This will replace original group with specified list of files
+    // even if original animation is longer
+    "sequences" :
+    [
+        {
+            "group" : 0,
+
+            "frames" :
+            [
+                "c01.png",
+                "c02.png",
+                "c03.png",
+                "c04.png",
+                "c05.png",
+                "c06.png",	
+                "c07.png",
+                "c08.png",
+                "c09.png",
+                "c10.png",
+                "c11.png",
+                "c12.png",
+				"c13.png",
+				"c14.png"
+            ]
+        }
+    ],
+    "images" :
+    [
+        {
+            "group" : 0,
+            "frame" : 0,
+            "file" : "c01.png"
+        },
+        {
+            "group" : 0,
+            "frame" : 1,
+            "file" : "c02.png"
+        },
+        {
+            "group" : 0,
+            "frame" : 2,
+            "file" : "c03.png"
+        },
+        {
+            "group" : 0,
+            "frame" : 3,
+            "file" : "c04.png"
+        },
+        {
+            "group" : 0,
+            "frame" : 4,
+            "file" : "c05.png"
+        },
+        {
+            "group" : 5,
+            "frame" : 0,
+            "file" : "c06.png"
+        },
+        {
+            "group" : 0,
+            "frame" : 6,
+            "file" : "c07.png"
+        },
+        {
+            "group" : 0,
+            "frame" : 7,
+            "file" : "c08.png"
+        },
+        {
+            "group" : 0,
+            "frame" : 8,
+            "file" : "c09.png"
+        },
+        {
+            "group" : 0,
+            "frame" : 9,
+            "file" : "c10.png"
+        },
+        {
+            "group" : 0,
+            "frame" : 10,
+            "file" : "c11.png"
+        },
+        {
+            "group" : 0,
+            "frame" : 11,
+            "file" : "c12.png"
+        },
+        {
+            "group" : 0,
+            "frame" : 12,
+            "file" : "c13.png"
+        },
+        {
+            "group" : 0,
+            "frame" : 13,
+            "file" : "c14.png"
+        }		
+    ]
+}

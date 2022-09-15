@@ -1,0 +1,51 @@
+{
+	"urox" : {
+		"abilities" : {
+			"enemyDefenceReduction" : 
+			{ 
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 15
+			},
+			"generalDamageReduction" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : 0,
+				"val" : 30
+			},
+			"jousting" :
+			{
+				"type" : "JOUSTING"
+			}
+		},
+		"upgrades": ["greatUrox"],		
+		"advMapAmount" : { "max" : 23, "min" : 14 },
+		"aiValue" : 378,
+		"attack" : 6,
+		"cost" : { "gold" : 245 },
+		"damage" : { "max" : 6, "min" : 4 },
+		"defense" : 7,
+		"faction" : "neutral",
+		"fightValue" : 354,
+		"graphics" : {
+			"animation" : "battle/urox/Bizomonth-Low",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/urox/FaceBigLow1",
+			"iconSmall" : "iconsSmall/urox/FacesmallLow1",
+			"map" : "map/urox/Adv-Bizomonth-Low",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 7,
+		"hitPoints" : 25,
+        "doubleWide" : true,
+		"level" : 3,
+		"name" : { "plural" : "Uroxes", "singular" : "Urox" },
+		"sound" : {
+			"attack" : "urox/UXatack",
+			"defend" : "urox/UXdefend",
+			"killed" : "urox/UXkill",
+			"move" : "urox/UXmove",
+			"wince" : "urox/UXwince"
+		},
+		"speed" : 4
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"greatUrox" : {
+		"abilities" : {
+			"enemyDefenceReduction" : 
+			{ 
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			},
+			"generalDamageReduction" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : 0,
+				"val" : 30
+			},
+			"JOUSTING" :
+			{
+				"type" : "JOUSTING"
+			},
+			"generalAttackReduction" :
+			{
+				"type" : "GENERAL_ATTACK_REDUCTION",
+				"subtype" : 0,
+				"val" : 80 //when binded or stoned
+			},
+			"defensiveStance" :
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 80
+			}
+		},	
+		"advMapAmount" : { "max" : 21, "min" : 14 },
+		"aiValue" : 432,
+		"attack" : 6,
+		"cost" : { "gold" : 270 },
+		"damage" : { "max" : 6, "min" : 4 },
+		"defense" : 8,
+		"faction" : "neutral",
+		"fightValue" : 432,
+		"graphics" : {
+			"animation" : "battle/urox/Bizomonth",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/urox/FaceBigHigh2",
+			"iconSmall" : "iconsSmall/urox/FacesmallHigh3",
+			"map" : "map/urox/Adv-Bizomonth-High",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 7,
+		"hitPoints" : 25,
+        "doubleWide" : true,
+		"level" : 3,
+		"name" : { "plural" : "Great Uroxes", "singular" : "Great Urox" },
+		"sound" : {
+			"attack" : "urox/UXatack",
+			"defend" : "urox/UXdefend",
+			"killed" : "urox/UXkill",
+			"move" : "urox/UXmove",
+			"wince" : "urox/UXwince"
+		},
+		"speed" : 6
+	}
+}

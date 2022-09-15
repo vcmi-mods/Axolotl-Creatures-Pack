@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpTupik" : {
+				"name" : "Tupik",
+				"creatures" : [[ "lionman" ]],
+				"sounds": {
+					"ambient": ["lionman/tupik"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "map/lionman/tupik.def",
+						"mask" : [ "VV", "BA" ]
+					}
+				}
+			}
+		}		
+	}
+}

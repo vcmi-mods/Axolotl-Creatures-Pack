@@ -1,0 +1,77 @@
+{
+	"acpWilloWisp":
+	{
+		"name" :
+		{
+			"plural" : "Will-o-wisp",
+			"singular" : "Will-o-wisp"
+		},
+		"faction" : "neutral",		
+		"advMapAmount" :
+		{
+			 "min" : 10,
+			 "max" : 20
+		},
+		"level" : 2,
+		"doubleWide" : false,
+		"attack" : 13,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 6,
+			 "max" : 10
+		},
+		"growth" : 4,
+		"hitPoints" : 30,
+		"speed" : 7,
+		"fightValue" : 670,
+		"aiValue" : 720,
+		"cost" :
+		{
+			"gold" : 435
+		},
+		"graphics" :
+		{
+			"animation" : "battle/will-o-wisp/will-o-wisp",
+			"iconLarge" : "iconsBig/will-o-wisp/willowisp58x64",
+			"iconSmall" : "iconsSmall/will-o-wisp/willowisp32x32",
+			"map" : "map/will-o-wisp/mapWilloWisp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack" : "will-o-wisp/WOWATAK",
+			"defend" : "will-o-wisp/WOWDEFEND",
+			"killed" : "will-o-wisp/WOWKILL",
+			"move" : "will-o-wisp/WOWMOVE",
+			"wince" : "will-o-wisp/WOWWINCE"
+        	},
+		"abilities" :
+		{
+			"moveSwamp" :
+			{
+				"type" : "NO_TERRAIN_PENALTY",
+				"subtype" : "terrain.swamp"
+			},
+			"cloudAttack" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.inferno",
+				"val" : 1
+			},
+			"infernoImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.inferno",
+				"addInfo" : 1
+			}
+		}
+	}
+}

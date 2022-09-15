@@ -1,0 +1,17 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpFrozenCavity" : {
+				"name" : "Frozen Cavity",
+				"creatures" : [[ "yeti" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "map/yeti/frozenCavity",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

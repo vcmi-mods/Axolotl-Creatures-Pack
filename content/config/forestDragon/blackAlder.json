@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpblackAlder" : {
+				"name" : "Black Alder",
+				"guards" : true,
+				"creatures" : [[ "forestDragon" ]],
+				"sounds": {
+					"ambient": ["forestDragon/blackAlder"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "map/forestDragon/blackAlder",
+						"mask" : [ "VVVV", "VBBB", "VVAV" ]
+					}
+				}
+			}
+		}		
+	}
+}

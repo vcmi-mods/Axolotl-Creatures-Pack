@@ -1,0 +1,38 @@
+{
+	"evilTreant" : {
+		"abilities" : {
+			"mindImmunity" : { "type" : "MIND_IMMUNITY" },
+			"rebirthAlways" : { "type" : "REBIRTH", "subtype" : 1, "val" : 50 },
+			"casts" : { "type" : "CASTS", "val" : 1 }
+		},
+		"advMapAmount" : {"max" : 10, "min" : 5},
+		"aiValue" : 1441,
+		"attack" : 17,
+		"cost" : { "gold" : 1250 },
+		"damage" : {"max" : 23, "min" : 15},
+		"defense" : 16,
+		"faction" : "neutral",
+		"fightValue" : 1266,
+		"graphics" : {
+			"animation" : "battle/evilTree/evilTreant",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.30 },
+			"iconLarge" : "iconsBig/evilTree/evilTreant",
+			"iconSmall" : "iconsSmall/evilTree/evilTreant",
+			"map" : "map/evilTree/evilTreant",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"hitPoints" : 75,
+        "doubleWide" : false,
+		"level" : 6,
+		"name" : { "plural" : "Evil Treants", "singular" : "Evil Treant" },
+		"sound" : {
+			"attack" : "evilTree/EVTRATTK",
+			"defend" : "evilTree/EVTRDFND",
+			"killed" : "evilTree/ETREKILL",
+			"move" : "evilTree/EVTRMOVE",
+			"wince" : "evilTree/EVTRWNCE"
+		},
+		"speed" : 5
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpAshTree" : {
+				"name" : "Ash Tree",
+				"creatures" : [[ "owlkin" ]],
+				"sounds": {
+					"ambient": ["owls/ashTree"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "map/owls/ashTree",
+						"mask" : [ "VVVV", "VVBV", "VVAV" ]
+					}
+				}
+			}
+		}		
+	}
+}

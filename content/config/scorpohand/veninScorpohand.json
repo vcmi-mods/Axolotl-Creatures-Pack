@@ -1,0 +1,56 @@
+{
+	"veninScorpohand" : {
+		"abilities" : {
+			"castAge" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.age",
+				"val" : 20,
+				"addInfo" : [0,2]
+			},
+			"castPoison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 20,
+				"addInfo" : [0,2]
+			},
+			"castWeakness" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
+				"val" : 60,
+				"addInfo" : [0,2]
+			}
+		},	
+		"advMapAmount" : {"max" : 16, "min" : 10},
+		"aiValue" : 742,
+		"attack" : 11,
+		"cost" : { "gold" : 390 },
+		"damage" : {"max" : 9, "min" : 8},
+		"defense" : 7,
+		"faction" : "neutral",
+		"fightValue" : 680,
+		"doubleWide" : true,
+		"graphics" : {
+			"animation" : "battle/scorpohand/hand",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 15, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/scorpohand/bigScorpohandUpg",
+			"iconSmall" : "iconsSmall/scorpohand/smallScorpohandUpg",
+			"map" : "map/scorpohand/AvHand",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 9,
+		"hitPoints" : 50,
+		"level" : 4,
+		"name" : { "plural" : "Venin Scorpohands", "singular" : "Venin Scorpohand" },
+		"sound" : {
+			"attack" : "scorpohand/scorpattack",
+			"defend" : "scorpohand/scorpdefend",
+			"killed" : "scorpohand/scorpkill",
+			"move" : "scorpohand/scorpmove",
+			"wince" : "scorpohand/scorpwince"
+		},
+		"speed" : 8
+	}
+}

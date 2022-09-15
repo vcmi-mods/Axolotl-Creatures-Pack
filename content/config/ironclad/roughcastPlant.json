@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpRoughcastPlant" : {
+				"name" : "Roughcast Plant",
+				"creatures" : [[ "ironclad" ]],
+				"sounds": {
+					"ambient": ["ironclad/roughcastPlant"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "map/ironclad/roughcastPlant",
+						"mask" : [ "VVVV", "VBBB", "VABB" ]
+					}
+				}
+			}
+		}		
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpslimyBurrow" : {
+				"name" : "Slimy Burrow",
+				"creatures" : [[ "tentoslimus" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "map/tentoslimus/slimyBurrow",
+						"mask" : [ "VV", "BA" ]
+					}
+				}
+			}
+		}		
+	}
+}

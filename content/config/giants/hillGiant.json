@@ -1,0 +1,51 @@
+{
+	"hillGiant" : {
+		"abilities" : {
+			"sightSeer" :
+			{
+				"type" : "SIGHT_RADIOUS",
+				"val" : 4,
+				"propagator" : "HERO"
+			},
+			"mindImmunity" :
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"enemyDefenceReduction" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 25
+			}	
+		},
+		"upgrades": ["mountainGiant"],	
+		"advMapAmount" : {"max" : 15, "min" : 8},
+		"aiValue" : 875,
+		"attack" : 13,
+		"cost" : { "gold" : 475 },
+		"damage" : {"max" : 15, "min" : 12},
+		"defense" : 16,
+		"faction" : "neutral",
+		"fightValue" : 875,
+		"graphics" : {
+			"animation" : "battle/giants/bgbLow",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"iconLarge" : "iconsBig/giants/HGFaceBigLow2",
+			"iconSmall" : "iconsSmall/giants/HGFacesmallLow",
+			"map" : "map/giants/Adv-bgbLow",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"hitPoints" : 45,
+        "doubleWide" : false,
+		"level" : 5,
+		"name" : { "plural" : "Hill Giants", "singular" : "Hill Giant" },
+		"sound" : {
+			"attack" : "giants/Gatak",
+			"defend" : "giants/Gdefend",
+			"killed" : "giants/Gkill",
+			"move" : "giants/Gmove",
+			"wince" : "giants/Gwince"
+		},
+		"speed" : 4
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"sphinx" : {
+		"abilities" : {
+			"morale" : { "type" : "SELF_MORALE" },
+			"petrify" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 75
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"sandWalker" :
+			{
+				"type" : "NO_TERRAIN_PENALTY",
+				"subtype" : 1,
+				"propagator" : "HERO"
+			},
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+		},	
+		"advMapAmount" : { "max" : 14, "min" : 8 },
+		"aiValue" : 940,
+		"attack" : 14,
+		"cost" : { "gold" : 750 },
+		"damage" : { "max" : 16, "min" : 13 },
+		"defense" : 17,
+		"faction" : "neutral",
+		"fightValue" : 940,
+		"graphics" : {
+			"animation" : "battle/sphinx/sphinx",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 10, "walk" : 1.2 },
+			"iconLarge" : "iconsBig/sphinx/sphinxlarge",
+			"iconSmall" : "iconsSmall/sphinx/sphinxsmall",
+			"map" : "map/sphinx/mapsphinx",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"hitPoints" : 55,
+        "doubleWide" : true,
+		"level" : 5,
+		"name" : { "plural" : "Lamias", "singular" : "Lamia" },
+		"sound" : {
+			"attack" : "sphinx/sphattk",
+			"defend" : "sphinx/sphdfnd",
+			"killed" : "sphinx/sphkill",
+			"move" : "sphinx/sphmove",
+			"wince" : "sphinx/sphwnce"
+		},
+		"speed" : 7
+	}
+}

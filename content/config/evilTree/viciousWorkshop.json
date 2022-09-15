@@ -1,0 +1,33 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"acpViciousWorkshop" : {
+				"name" : "Vicious Workshop",
+				"sounds": {
+					"ambient": ["evilTree/MutTrDw"]
+				},
+				"creatures" : [[ "evilTree" ]],
+				"guards" : true,			
+				"base": 
+				{
+					"mask" : [ "VVB", "VBB", "VAB" ]
+				},
+				"templates" : {				
+					"MutTrDw1" : { "animation" : "map/evilTree/MutTrDw1", "allowedTerrains": [ "dirt", "rough" ] },
+					"MutTrDw2" : { "animation" : "map/evilTree/MutTrDw2", "allowedTerrains": [ "swamp" ] },
+					"MutTrDw3" : { "animation" : "map/evilTree/MutTrDw3", "allowedTerrains": [ "grass" ] },				
+					"MutTrDw4" : { "animation" : "map/evilTree/MutTrDw4", "allowedTerrains": [ "rock" ] },
+					"MutTrDw5" : { "animation" : "map/evilTree/MutTrDw5", "allowedTerrains": [ "subterra" ] },
+					"MutTrDw6" : { "animation" : "map/evilTree/MutTrDw6", "allowedTerrains": [ "lava" ] },
+					"MutTrDw7" : { "animation" : "map/evilTree/MutTrDw7", "allowedTerrains": [ "snow" ] }				
+				}
+			}	
+		}
+	}
+}
+	
+	
+	
+
+
+	
