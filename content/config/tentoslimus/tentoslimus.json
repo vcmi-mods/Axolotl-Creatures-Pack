@@ -28,7 +28,7 @@
 		"fightValue" : 235,
 		"graphics" : {
 			"animation" : "battle/tentoslimus/Tentoslimus2_altIdle",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.0 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.0 },
 			"iconLarge" : "iconsBig/tentoslimus/tentBig",
 			"iconSmall" : "iconsSmall/tentoslimus/tentSmall",
 			"map" : "map/tentoslimus/AdvTent2",

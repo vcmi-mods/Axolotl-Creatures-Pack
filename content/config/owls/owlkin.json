@@ -28,7 +28,7 @@
 		"fightValue" : 216,
 		"graphics" : {
 			"animation" : "battle/owls/OwlLow",
-			"animationTime" : { "attack" : 0.5, "flight" : 0.5, "idle" : 20, "walk" : 1.5 },
+			"animationTime" : { "attack" : 0.5, "idle" : 20, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/owls/FaceLowBig2",
 			"iconSmall" : "iconsSmall/owls/FaceLowsmall1",
 			"map" : "map/owls/Adv-Owllow",

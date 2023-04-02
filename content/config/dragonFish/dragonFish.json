@@ -27,7 +27,7 @@
 		"fightValue" : 1740,
 		"graphics" : {
 			"animation" : "battle/dragonFish/KrakkenLow",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/dragonFish/FaceBiglow",
 			"iconSmall" : "iconsSmall/dragonFish/FaceSmalllow",
 			"map" : "map/dragonFish/KrakkenLowAdv",

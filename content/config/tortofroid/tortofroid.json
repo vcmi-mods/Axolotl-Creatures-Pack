@@ -13,7 +13,7 @@
 		"fightValue" : 196,
 		"graphics" : {
 			"animation" : "battle/tortofroid/tortofroid",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.8 },
+			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.8 },
 			"iconLarge" : "iconsBig/tortofroid/tortofroid",
 			"iconSmall" : "iconsSmall/tortofroid/tortofroid",
 			"map" : "map/tortofroid/tortofroid",

@@ -34,7 +34,7 @@
 		"fightValue" : 30645,
 		"graphics" : {
 			"animation" : "battle/stoneLord/Ismahigh",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 2.3 },
+			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 2.3 },
 			"iconLarge" : "iconsBig/stoneLord/FaceHigh-Big2",
 			"iconSmall" : "iconsSmall/stoneLord/FaceHigh-small2",
 			"map" : "map/stoneLord/Adv-Ismahigh",

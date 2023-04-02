@@ -22,8 +22,9 @@
 				"type" : "BLOCK_MAGIC_ABOVE",
 				"val" : 1,
 				"valueType" : "INDEPENDENT_MAX",
-				"effectRange": "ONLY_ENEMY_ARMY",
-				"propagator": "BATTLE_WIDE"
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
 			}
 		},	
 		"advMapAmount" : {"max" : 20, "min" : 12},
@@ -36,7 +37,7 @@
 		"fightValue" : 269,
 		"graphics" : {
 			"animation" : "battle/thug/RogueH",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.5 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/thug/thug58x64",
 			"iconSmall" : "iconsSmall/thug/thug32x32",
 			"map" : "map/thug/AvThug",

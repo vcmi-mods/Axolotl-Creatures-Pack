@@ -14,7 +14,7 @@
 		"fightValue" : 229,
 		"graphics" : {
 			"animation" : "battle/tortofroid/vileTortofroid",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.80 },
+			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.80 },
 			"iconLarge" : "iconsBig/tortofroid/vileTortofroid",
 			"iconSmall" : "iconsSmall/tortofroid/vileTortofroid",
 			"map" : "map/tortofroid/vileTortofroid",
@@ -32,6 +32,6 @@
 			"move" : "tortofroid/move",
 			"wince" : "tortofroid/wince"
 		},
-		"speed" : 7,
+		"speed" : 7
 	}
 }

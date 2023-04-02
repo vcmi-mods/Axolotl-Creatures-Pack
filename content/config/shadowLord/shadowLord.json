@@ -37,7 +37,7 @@
 		"fightValue" : 12750,
 		"graphics" : {
 			"animation" : "battle/shadowLord/shadowLord",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/shadowLord/Face58x64",
 			"iconSmall" : "iconsSmall/shadowLord/Face32x32",
 			"map" : "map/shadowLord/Adv-ShadowLord",

@@ -13,7 +13,7 @@
 		"fightValue" : 746,
 		"graphics" : {
 			"animation" : "battle/kappa/kappa",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.30 },
+			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
 			"iconLarge" : "iconsBig/kappa/kappa",
 			"iconSmall" : "iconsSmall/kappa/kappa",
 			"map" : "map/kappa/kappa",

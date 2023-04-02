@@ -6,10 +6,7 @@
 			{
 				"type" : "FEARLESS"
 			},
-			"king3" :
-			{
-				"type" : "KING3"
-			},
+			"king3": { "type" : "KING", "val" : 3, "valueType" : "ADDITIVE_VALUE" },
 			"swampWalker" :
 			{
 				"type" : "NO_TERRAIN_PENALTY",
@@ -36,7 +33,7 @@
 		"fightValue" : 1374,
 		"graphics" : {
 			"animation" : "battle/serpentine/snmanhigh",
-			"animationTime" : { "attack" : 0.5, "flight" : 0.5, "idle" : 4, "walk" : 1.8 },
+			"animationTime" : { "attack" : 0.5, "idle" : 4, "walk" : 1.8 },
 			"iconLarge" : "iconsBig/serpentine/Up-FaceBig",
 			"iconSmall" : "iconsSmall/serpentine/Up-Facesmall2",
 			"map" : "map/serpentine/snmanhigh-map",

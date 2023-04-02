@@ -28,7 +28,7 @@
 		"fightValue" : 354,
 		"graphics" : {
 			"animation" : "battle/urox/Bizomonth-Low",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/urox/FaceBigLow1",
 			"iconSmall" : "iconsSmall/urox/FacesmallLow1",
 			"map" : "map/urox/Adv-Bizomonth-Low",

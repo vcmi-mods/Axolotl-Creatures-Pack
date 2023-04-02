@@ -28,7 +28,7 @@
 		"upgrades" : [ "veninScorpohand" ],
 		"graphics" : {
 			"animation" : "battle/scorpohand/HandLow",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 15, "walk" : 1.5 },
+			"animationTime" : { "attack" : 0.6, "idle" : 15, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/scorpohand/bigScorpohand",
 			"iconSmall" : "iconsSmall/scorpohand/smallScorpohand",
 			"map" : "map/scorpohand/HandAdvLow",

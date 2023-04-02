@@ -1,7 +1,7 @@
 {
 	"yeti" : {
 		"abilities" : {
-			"morale" : { "type" : "SELF_MORALE" },
+			"morale" : { 	"type" : "MORALE", "val" : 1, "valueType" : "INDEPENDENT_MAX" },
 			"fear" :
 			{
 				"type" : "FEAR"
@@ -44,8 +44,10 @@
 			"descreaseLuck" :
 			{
 				"type" : "LUCK",
-				"effectRange" : "ONLY_ENEMY_ARMY",
-				"val" : -1
+				"val" : -1,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
 			}
 		},
 		"advMapAmount" : { "max" : 10, "min" : 6 },
@@ -58,7 +60,7 @@
 		"fightValue" : 1970,
 		"graphics" : {
 			"animation" : "battle/yeti/yeti",
-			"animationTime" : { "attack" : 1.0, "flight" : 1.0, "idle" : 4, "walk" : 1.5 },
+			"animationTime" : { "attack" : 1.0, "idle" : 4, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/yeti/yetilarge",
 			"iconSmall" : "iconsSmall/yeti/yetismall",
 			"map" : "map/yeti/mapyeti",
@@ -76,6 +78,6 @@
 			"move" : "yeti/yetimove",
 			"wince" : "yeti/yetiwnce"
 		},
-		"speed" : 5,
+		"speed" : 5
 	}
 }

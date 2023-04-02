@@ -37,8 +37,7 @@
 			{
 				"walk" : 1.30,
 				"idle" : 10,
-				"attack" : 1,
-				"flight" : 1
+				"attack" : 1
 			}
 		},
 	    "doubleWide" : true,
@@ -60,9 +59,11 @@
 		{
 			"unlucky" :
 			{
-				"type" : "LUCK",
-				"effectRange" : "ONLY_ENEMY_ARMY",
-				"val" : -1
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"type" : "LUCK", 
+				"val" : -1 
 			},		
 			"degradation" : 
 			{

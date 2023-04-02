@@ -29,7 +29,7 @@
 		"fightValue" : 548,
 		"graphics" : {
 			"animation" : "battle/roper/Tentaplant-Rad",
-			"animationTime" : { "attack" : 1.6, "flight" : 1.6, "idle" : 20, "walk" : 1.5 },
+			"animationTime" : { "attack" : 1.6, "idle" : 20, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/roper/TentaclePlant-rad-Face-Big",
 			"iconSmall" : "iconsSmall/roper/TentaclePlant-rad-Face-Small",
 			"map" : "map/roper/Adv-Tentaplant-Rad",

@@ -30,7 +30,7 @@
 		"fightValue" : 580,
 		"graphics" : {
 			"animation" : "battle/sellsword/sellsword",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/sellsword/swrdsbig2",
 			"iconSmall" : "iconsSmall/sellsword/swrdssmll2",
 			"map" : "map/sellsword/Adv-sellsword",

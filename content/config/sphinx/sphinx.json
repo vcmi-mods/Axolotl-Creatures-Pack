@@ -1,7 +1,7 @@
 {
 	"sphinx" : {
 		"abilities" : {
-			"morale" : { "type" : "SELF_MORALE" },
+			"morale" : { 	"type" : "MORALE", "val" : 1, "valueType" : "INDEPENDENT_MAX" },
 			"petrify" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
@@ -21,7 +21,7 @@
 			"canFly" : 
 			{
 				"type" : "FLYING"
-			},
+			}
 		},	
 		"advMapAmount" : { "max" : 14, "min" : 8 },
 		"aiValue" : 940,
@@ -33,7 +33,7 @@
 		"fightValue" : 940,
 		"graphics" : {
 			"animation" : "battle/sphinx/sphinx",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 10, "walk" : 1.2 },
+			"animationTime" : { "attack" : 0.6, "idle" : 10, "walk" : 1.2 },
 			"iconLarge" : "iconsBig/sphinx/sphinxlarge",
 			"iconSmall" : "iconsSmall/sphinx/sphinxsmall",
 			"map" : "map/sphinx/mapsphinx",

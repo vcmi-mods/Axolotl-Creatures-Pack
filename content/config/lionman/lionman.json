@@ -3,7 +3,9 @@
 		"abilities" : {
 			"selfluck" : 
 			{ 
-				"type" : "SELF_LUCK"
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
 			},
 			"castsQuicksand" :
 			{
@@ -42,7 +44,7 @@
 		"fightValue" : 845,
 		"graphics" : {
 			"animation" : "battle/lionman/Lionman1Hex",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/lionman/LIOFaceBig",
 			"iconSmall" : "iconsSmall/lionman/LIOFacesmall",
 			"map" : "map/lionman/Adv-LionmanBoss",

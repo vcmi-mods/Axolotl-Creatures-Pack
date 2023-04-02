@@ -25,7 +25,7 @@
 		"fightValue" : 94,
 		"graphics" : {
 			"animation" : "battle/roper/Tentaplant-A",
-			"animationTime" : { "attack" : 1.6, "flight" : 1.6, "idle" : 20, "walk" : 1.5 },
+			"animationTime" : { "attack" : 1.6, "idle" : 20, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/roper/TentaclePlantFace-Big",
 			"iconSmall" : "iconsSmall/roper/TentaclePlantFace-Small",
 			"map" : "map/roper/Adv-Tentaplant-A",

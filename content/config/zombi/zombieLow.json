@@ -21,7 +21,7 @@
 		"fightValue" : 275,
 		"graphics" : {
 			"animation" : "battle/zombi/czomlo",
-			"animationTime" : { "attack" : 1.0, "flight" : 1.0, "idle" : 6, "walk" : 1.5 },
+			"animationTime" : { "attack" : 1.0, "idle" : 6, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/zombi/Low-Big1",
 			"iconSmall" : "iconsSmall/zombi/Low-small1",
 			"map" : "map/zombi/Adv-czomlo",

@@ -4,9 +4,9 @@
 		
 			"sightSeer" :
 			{
-				"type" : "SIGHT_RADIOUS",
+				"type" : "SIGHT_RADIUS",
 				"val" : 6,
-				"propagator" : "HERO"
+				"valueType" : "ADDITIVE_VALUE"
 			},
 			"mindImmunity" :
 			{
@@ -35,7 +35,7 @@
 		"fightValue" : 940,
 		"graphics" : {
 			"animation" : "battle/giants/bgbHigh2run",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/giants/HGFaceBigHigh",
 			"iconSmall" : "iconsSmall/giants/HGFacesmallHigh",
 			"map" : "map/giants/Adv-bgbHigh",

@@ -14,7 +14,7 @@
 		"fightValue" : 357,
 		"graphics" : {
 			"animation" : "battle/forestDragon/swampDragon",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.30 },
+			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
 			"iconLarge" : "iconsBig/forestDragon/swampDragon",
 			"iconSmall" : "iconsSmall/forestDragon/swampDragon",
 			"map" : "map/forestDragon/swampDragon",

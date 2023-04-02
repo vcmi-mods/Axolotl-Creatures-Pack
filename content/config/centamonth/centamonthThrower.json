@@ -1,8 +1,8 @@
 {
 	"centamonthThrower" : {
 		"abilities" : {
-			"morale" : { "type" : "SELF_MORALE" },
-			"king": {	"type" : "KING3" },
+			"morale" : { "type" : "MORALE", "val" : 1, "valueType" : "INDEPENDENT_MAX" },
+			"king": { "type" : "KING", "val" : 3, "valueType" : "ADDITIVE_VALUE" },
 			"canShoot" : { "type" : "SHOOTER" }    
 		},
 		"advMapAmount" : {"max" : 8, "min" : 3},
@@ -15,7 +15,7 @@
 		"fightValue" : 3470,
 		"graphics" : {
 			"animation" : "battle/centamonth/centamonthThrower",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.30 },
+			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
 			"iconLarge" : "iconsBig/centamonth/centamonthThrower",
 			"iconSmall" : "iconsSmall/centamonth/centamonthThrower",
 			"map" : "map/centamonth/centamonthThrower",

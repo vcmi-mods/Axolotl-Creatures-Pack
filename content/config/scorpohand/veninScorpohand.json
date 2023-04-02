@@ -34,7 +34,7 @@
 		"doubleWide" : true,
 		"graphics" : {
 			"animation" : "battle/scorpohand/hand",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 15, "walk" : 1.5 },
+			"animationTime" : { "attack" : 0.6, "idle" : 15, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/scorpohand/bigScorpohandUpg",
 			"iconSmall" : "iconsSmall/scorpohand/smallScorpohandUpg",
 			"map" : "map/scorpohand/AvHand",

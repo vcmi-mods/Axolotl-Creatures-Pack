@@ -2,13 +2,18 @@
 	"name" : "Axolotl Creatures Pack",
 	"description" : "Axolotl creatures pack by Gilu. Mods adds 43 new creatures).",
 	"author" : "Axolotl. And then Gilu, Avatar, fred79, Andruids, Troggly, MK, Witchking. Sound: Disciples 2",
-	"version" : "1.0",
+	"version" : "1.1",
 	"contact" : "",
 	"modType" : "Creatures",
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
 	"changelog" :
     {
+		"1.1"   : [ "Update to vcmi-1.2" ],
 		"1.0"   : [ "4 new creatures", "All adventure map buildings", "some ambient sounds added" ],
-		"0.995"   : [ "Older release" ],
+		"0.995"   : [ "Older release" ]
     }, 
 	"creatures" :
 	[

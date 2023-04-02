@@ -8,9 +8,10 @@
 			},
 			"seaMovement" :
 			{
-				"type" : "SEA_MOVEMENT",
+				"subtype" : 0,
+				"type" : "MOVEMENT",
 				"val" : 600,
-				"propagator" : "HERO"
+				"valueType" : "ADDITIVE_VALUE"
 			},
 			"waterImmunity" :
 			{
@@ -29,7 +30,7 @@
 		"fightValue" : 1540,
 		"graphics" : {
 			"animation" : "battle/dragonFish/KrakkenHigh",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/dragonFish/FaceBig3",
 			"iconSmall" : "iconsSmall/dragonFish/FaceSmall3",
 			"map" : "map/dragonFish/KrakkenHighAdv",

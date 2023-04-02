@@ -14,7 +14,7 @@
 		"fightValue" : 823,
 		"graphics" : {
 			"animation" : "battle/kappa/kappaShoya",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.30 },
+			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
 			"iconLarge" : "iconsBig/kappa/kappaShoya",
 			"iconSmall" : "iconsSmall/kappa/kappaShoya",
 			"map" : "map/kappa/kappaShoya",
@@ -32,6 +32,6 @@
 			"move" : "kappa/move",
 			"wince" : "kappa/wince"
 		},
-		"speed" : 6,
+		"speed" : 6
 	}
 }

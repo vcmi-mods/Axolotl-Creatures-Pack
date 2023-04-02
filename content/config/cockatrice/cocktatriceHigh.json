@@ -24,7 +24,7 @@
 		"fightValue" : 661,
 		"graphics" : {
 			"animation" : "battle/cockatrice/CockatriceHigh",
-			"animationTime" : { "attack" : 20, "flight" : 20, "idle" : 5, "walk" : 1.6 },
+			"animationTime" : { "attack" : 20, "idle" : 5, "walk" : 1.6 },
 			"iconLarge" : "iconsBig/cockatrice/Big",
 			"iconSmall" : "iconsSmall/cockatrice/small2",
 			"map" : "map/cockatrice/AdvCockatrice",

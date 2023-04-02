@@ -20,7 +20,7 @@
 		"fightValue" : 325,
 		"graphics" : {
 			"animation" : "battle/zombi/czombi",
-			"animationTime" : { "attack" : 1.0, "flight" : 1.0, "idle" : 6, "walk" : 1.5 },
+			"animationTime" : { "attack" : 1.0, "idle" : 6, "walk" : 1.5 },
 			"iconLarge" : "iconsBig/zombi/High-Big2",
 			"iconSmall" : "iconsSmall/zombi/High-small",
 			"map" : "map/zombi/Adv-czombi",

@@ -35,7 +35,7 @@
 		"fightValue" : 25760,
 		"graphics" : {
 			"animation" : "battle/stoneLord/Ismalow",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 2.3 },
+			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 2.3 },
 			"iconLarge" : "iconsBig/stoneLord/Facelow-High",
 			"iconSmall" : "iconsSmall/stoneLord/Facelow-small",
 			"map" : "map/stoneLord/Adv-Ismalow",
