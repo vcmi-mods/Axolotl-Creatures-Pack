@@ -5,7 +5,8 @@
 			{
 				"type" : "SIGHT_RADIUS",
 				"val" : 4,
-				"valueType" : "ADDITIVE_VALUE"
+				"valueType" : "ADDITIVE_VALUE",
+				"propagator" : "HERO"
 			},
 			"mindImmunity" :
 			{
