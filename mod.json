@@ -23,6 +23,13 @@
 			"translation/axolotl/chinese.json"
 		]
 	},
+	"german" : {
+		"name" : "Axolotl  Kreaturen Pack",
+		"description" : "Axolotl Kreaturen Pack von Gilu. Mods fügt 43 neue Kreaturen hinzu.",
+		"translations" : [
+			"translation/axolotl/german.json"
+		]
+	},
 	"creatures" :
 	[
 		"config/zombi/zombieLow",
