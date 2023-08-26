@@ -59,14 +59,14 @@
 							"attack" : {
 							"val" : -1,
 							"type" : "PRIMARY_SKILL",
-							"subtype" : "primSkill.attack",
+							"subtype" : "primarySkill.attack",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "N_TURNS"
 						},
 						"defence" : {
 							"val" : -1,
 							"type" : "PRIMARY_SKILL",
-							"subtype" : "primSkill.defence",
+							"subtype" : "primarySkill.defence",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "N_TURNS"
 						}
