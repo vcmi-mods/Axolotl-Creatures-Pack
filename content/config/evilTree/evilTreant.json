@@ -2,7 +2,7 @@
 	"evilTreant" : {
 		"abilities" : {
 			"mindImmunity" : { "type" : "MIND_IMMUNITY" },
-			"rebirthAlways" : { "type" : "REBIRTH", "subtype" : 1, "val" : 50 },
+			"rebirthAlways" : { "type" : "REBIRTH", "subtype" : "rebirthSpecial", "val" : 50 },
 			"casts" : { "type" : "CASTS", "val" : 1 }
 		},
 		"advMapAmount" : {"max" : 10, "min" : 5},

@@ -2,7 +2,7 @@
 	"vileTortofroid" : {
 		"abilities" : {
 			"reduceDef" : { "type" : "ENEMY_DEFENCE_REDUCTION", "val" : 25 },
-			"disease" : { "type" : "SPELL_AFTER_ATTACK", "subtype" : 73, "val" : 25 }
+			"disease" : { "type" : "SPELL_AFTER_ATTACK", "subtype" : "spell.disease", "val" : 25, "addInfo" : [1, 2]  }
 		},
 		"advMapAmount" : {"max" : 25, "min" : 16},
 		"aiValue" : 223,

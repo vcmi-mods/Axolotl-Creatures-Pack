@@ -1,7 +1,7 @@
 {
 	"kappa" : {
 		"abilities" : {
-			"magicResistance" : { "type" : "SPELL_DAMAGE_REDUCTION", "subtype" : -1, "val" : 40 }
+			"magicResistance" : { "type" : "SPELL_DAMAGE_REDUCTION", "subtype" : "spellSchool.any", "val" : 40 }
 		},
 		"advMapAmount" : {"max" : 16, "min" : 8},
 		"aiValue" : 807,

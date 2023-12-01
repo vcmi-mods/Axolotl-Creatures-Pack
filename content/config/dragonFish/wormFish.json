@@ -4,19 +4,21 @@
 			"dragonNature" : { "type" : "DRAGON_NATURE" },
 			"canFly" :
 			{
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
 			},
 			"seaMovement" :
 			{
-				"subtype" : 0,
+				"subtype" : "heroMovementSea",
 				"type" : "MOVEMENT",
 				"val" : 600,
 				"valueType" : "ADDITIVE_VALUE"
 			},
 			"waterImmunity" :
 			{
-				"type" : "WATER_IMMUNITY",
-				"val" : 0
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
 			}	
 		},
 		"upgrades": ["dragonFish"],		

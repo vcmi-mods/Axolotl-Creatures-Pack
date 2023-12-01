@@ -15,12 +15,13 @@
 			"sandWalker" :
 			{
 				"type" : "NO_TERRAIN_PENALTY",
-				"subtype" : 1,
+				"subtype" : "terrain.sand",
 				"propagator" : "HERO"
 			},
 			"canFly" : 
 			{
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
 			}
 		},	
 		"advMapAmount" : { "max" : 14, "min" : 8 },

@@ -9,7 +9,7 @@
 			"generalDamageReduction" :
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype" : 0,
+				"subtype" : "damageTypeMelee",
 				"val" : 30
 			},
 			"jousting" :

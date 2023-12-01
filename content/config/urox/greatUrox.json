@@ -9,7 +9,7 @@
 			"generalDamageReduction" :
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype" : 0,
+				"subtype" : "damageTypeMelee",
 				"val" : 30
 			},
 			"JOUSTING" :
@@ -19,8 +19,7 @@
 			"generalAttackReduction" :
 			{
 				"type" : "GENERAL_ATTACK_REDUCTION",
-				"subtype" : 0,
-				"val" : 80 //when binded or stoned
+				"val" : 80
 			},
 			"defensiveStance" :
 			{

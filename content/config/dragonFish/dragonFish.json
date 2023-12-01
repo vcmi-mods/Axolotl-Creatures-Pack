@@ -4,7 +4,8 @@
 			"dragonNature" : { "type" : "DRAGON_NATURE" },
 			"canFly" :
 			{
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
 			},
 			"freeShipBoarding" :
 			{
@@ -13,8 +14,9 @@
 			},
 			"waterImmunity" :
 			{
-				"type" : "WATER_IMMUNITY",
-				"val" : 1
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 100
 			}	
 		},	
 		"advMapAmount" : { "max" : 10, "min" : 6 },

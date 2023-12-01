@@ -1,7 +1,7 @@
 {
 	"kappaShoya" : {
 		"abilities" : {
-			"magicResistance" : { "type" : "SPELL_DAMAGE_REDUCTION", "subtype" : -1, "val" : 40 },
+			"magicResistance" : { "type" : "SPELL_DAMAGE_REDUCTION", "subtype" : "spellSchool.any", "val" : 40 },
 			"noRetaliation" :  { "type" : "BLOCKS_RETALIATION"}
 		},
 		"advMapAmount" : {"max" : 12, "min" : 8},
