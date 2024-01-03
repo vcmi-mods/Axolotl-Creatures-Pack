@@ -1,2 +1,2 @@
 # Axolotl Creatures Pack
- New neutral creatures made by Axolotl
+ Neutral creatures made by Axolotl
