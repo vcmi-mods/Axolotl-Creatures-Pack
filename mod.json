@@ -19,8 +19,8 @@
 		"0.995"   : [ "Older release" ]
     },
 	"chinese" : {
-		"name" : "Axolotl 生物包",
-		"description" : "Axolotl 生物包",
+		"name" : "生物模组包（Axolotl）",
+		"description" : "由Gilu整理的Axolotl的生物模组包，添加了 43 个中立生物。",
 		"translations" : [
 			"translation/axolotl/chinese.json"
 		]
