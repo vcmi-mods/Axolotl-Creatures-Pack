@@ -34,8 +34,8 @@
 		]
 	},
 	"russian" : {
-		"name" : "Axolotl",
-		"description" : "Новые существа",
+		"name" : "Axolotl Creatures Pack",
+		"description" : "Пакет существ Axolotl. Мод добавляет 43 существа).",
 		"translations" : [
 			"translation/axolotl/russian.json"
 		]
