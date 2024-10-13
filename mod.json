@@ -2,7 +2,7 @@
 	"name" : "Axolotl Creatures Pack",
 	"description" : "Axolotl creatures pack by Gilu. Mods adds 43 creatures).",
 	"author" : "Axolotl. And then Gilu, Avatar, fred79, Andruids, Troggly, MK, Witchking. Sound: Disciples 2",
-	"version" : "1.3.3",
+	"version" : "1.3.4",
 	"contact" : "",
 	"modType" : "Creatures",
 	"compatibility" :
@@ -11,6 +11,7 @@
 	},
 	"changelog" :
     {
+		"1.3.4" : [ "Czech translation by George King" ],
 		"1.3.3" : [ "Updated russian translation" ],
 		"1.3.2" : [ "Russian translation by Anton Sergeew" ],
 		"1.3.1" : [ "Update to vcmi-1.4 format" ],
@@ -39,6 +40,13 @@
 		"description" : "Пакет существ Axolotl. Мод добавляет 43 существа).",
 		"translations" : [
 			"translation/axolotl/russian.json"
+		]
+	},
+	"czech" : {
+		"name": "Balíček bytostí Axolotl",
+		"description": "Balíček bytostí Axolotl od Gilu. Mod přidává 43 bytostí."
+		"translations" : [
+			"translation/axolotl/czech.json"
 		]
 	},
 	"creatures" :
