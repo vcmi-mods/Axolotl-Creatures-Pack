@@ -44,7 +44,7 @@
 	},
 	"czech" : {
 		"name": "Balíček bytostí Axolotl",
-		"description": "Balíček bytostí Axolotl od Gilu. Mod přidává 43 bytostí."
+		"description": "Balíček bytostí Axolotl od Gilu. Mod přidává 43 bytostí.",
 		"translations" : [
 			"translation/axolotl/czech.json"
 		]
